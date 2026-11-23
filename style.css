@@ -221,3 +221,16 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 600; }
   padding: 2rem 1rem 3rem;
 }
 .site-footer p { margin: .35rem 0; }
+
+.landing-header .orient { max-width: 34rem; margin: 1.2rem auto 0; font-size: .98rem; color: var(--muted); line-height: 1.5; }
+.ladder .ladder-intro { color: var(--muted); }
+.tier { border-left: 3px solid var(--rule); padding: .2rem 0 .2rem 1rem; margin: 1.4rem 0; }
+.tier.established { border-color: #5f7d5a; }
+.tier.argued { border-color: var(--prov-rule); }
+.tier.speculative { border-color: var(--accent); border-left-style: dashed; }
+.tier h3 { font-family: var(--sans); font-size: .95rem; margin: 0 0 .4rem; }
+.tier h3 span { font-weight: 400; color: var(--muted); font-size: .85rem; margin-left: .4rem; }
+.tier ul { margin: 0; padding-left: 1.1rem; }
+.tier li { margin: .45rem 0; font-size: .97rem; }
+.tier .next { font-style: normal; font-family: var(--sans); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-right: .3rem; }
+.ladder-foot { font-size: .9rem; color: var(--muted); }
