@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Listen — Antimemetics: The Skeleton</title>
+<meta name="description" content="Audio version of Antimemetics: The Skeleton, draft v17, 2026-11-21. 3 h 11 min, synthesized voice.">
+<meta name="author" content="amorfeusz">
+<link rel="canonical" href="https://antimemetics.org/listen.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="antimemetics.org">
+<meta property="og:title" content="Listen — Antimemetics: The Skeleton">
+<meta property="og:description" content="Audio version of draft v17, 2026-11-21. 3 h 11 min.">
+<meta property="og:url" content="https://antimemetics.org/listen.html">
+<meta property="og:image" content="https://antimemetics.org/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="draft">
+<header class="draft-header">
+  <a class="home" href="index.html">antimemetics.org</a>
+  <h1>Listen</h1>
+  <p class="subtitle">The v17 draft of 2026-11-21, read by a synthesized voice. 3 h 11 min.</p>
+</header>
+<main class="landing listen" style="padding-top:1.5rem">
+  <audio id="player" controls preload="none" src="audio/Antimemetics_The_Skeleton_v17_draft_2026-11-21.mp3"></audio>
+  <p class="listen-meta"><a href="audio/Antimemetics_The_Skeleton_v17_draft_2026-11-21.mp3" download data-goatcounter-click="download-mp3">Download the MP3</a> · chapters are listed below · the voice is synthetic, so names and citations are sometimes misread; the <a href="skeleton.html">text</a> is the reference.</p>
+  <h2>Chapters</h2>
+  <ol class="chapters">
+      <li><button type="button" data-t="0.0"><span class="ct">0:00</span> Over coffee</button></li>
+      <li><button type="button" data-t="63.7"><span class="ct">1:03</span> Preface</button></li>
+      <li><button type="button" data-t="1356.5"><span class="ct">22:36</span> Emotion: the transduction layer (skeleton)</button></li>
+      <li><button type="button" data-t="1671.2"><span class="ct">27:51</span> Part I — The question</button></li>
+      <li><button type="button" data-t="2477.4"><span class="ct">41:17</span> Part II — The engine: how culture propagates and why it is exploitable</button></li>
+      <li><button type="button" data-t="3047.3"><span class="ct">50:47</span> Part III — The substrate loop: source and leveraged resource</button></li>
+      <li><button type="button" data-t="3255.2"><span class="ct">54:15</span> Part IV — The substrate-jump: from anomalies to architecture</button></li>
+      <li><button type="button" data-t="4065.0"><span class="ct">1:07:44</span> Part V — Core claims of the framework</button></li>
+      <li><button type="button" data-t="5067.0"><span class="ct">1:24:27</span> Part VI — The territory of antimemetic work</button></li>
+      <li><button type="button" data-t="7974.5"><span class="ct">2:12:54</span> Part VII — Atrospection and the AI substrate</button></li>
+      <li><button type="button" data-t="10271.0"><span class="ct">2:51:10</span> Part VIII — Extended claims: corpus-grounded formulations of 2026-05-15</button></li>
+      <li><button type="button" data-t="10666.6"><span class="ct">2:57:46</span> A note to my children, and to any reader who finds this</button></li>
+      <li><button type="button" data-t="10793.2"><span class="ct">2:59:53</span> References</button></li>
+      <li><button type="button" data-t="11399.0"><span class="ct">3:09:59</span> References suggested during AI-assisted drafting</button></li>
+  </ol>
+</main>
+<footer class="site-footer">
+  <p><a href="index.html">Home</a> · <a href="skeleton.html">Read the draft</a> · <a href="versions.html">Versions</a> · <a href="https://github.com/amorfeusz/antimemetics">Source on GitHub</a></p>
+  <p>Questions or comments: contact [at] antimemetics.org</p>
+</footer>
+<script>
+(function(){var a=document.getElementById('player');
+document.querySelectorAll('.chapters button').forEach(function(b){b.addEventListener('click',function(){
+ var t=parseFloat(b.dataset.t); a.preload='auto';
+ var go=function(){a.currentTime=t;a.play();};
+ if(a.readyState>=1) go(); else {a.addEventListener('loadedmetadata',go,{once:true}); a.load();}
+});});})();
+</script>
+<script data-goatcounter="https://amorfeusz.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script src="engage.js" defer></script>
+</body>
+</html>

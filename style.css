@@ -234,3 +234,12 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 600; }
 .tier li { margin: .45rem 0; font-size: .97rem; }
 .tier .next { font-style: normal; font-family: var(--sans); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-right: .3rem; }
 .ladder-foot { font-size: .9rem; color: var(--muted); }
+
+/* Listen */
+.listen audio { width: 100%; margin: .5rem 0 .8rem; }
+.listen-meta { font-family: var(--sans); font-size: .85rem; color: var(--muted); }
+.chapters { list-style: none; padding: 0; margin: 0; font-family: var(--sans); font-size: .95rem; }
+.chapters li { border-bottom: 1px solid var(--rule); }
+.chapters button { all: unset; cursor: pointer; display: flex; gap: .4rem; box-sizing: border-box; width: 100%; padding: .6rem 0; color: var(--text); }
+.chapters button:hover, .chapters button:focus-visible { color: var(--accent); }
+.chapters .ct { flex: 0 0 4.5rem; color: var(--muted); font-variant-numeric: tabular-nums; }
