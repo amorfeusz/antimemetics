@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /_wdw/
 
 Sitemap: https://antimemetics.org/sitemap.xml
